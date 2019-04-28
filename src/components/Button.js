@@ -1,12 +1,12 @@
 /*
  * Button.js
  *
- * @returns button
+ * @returns: Button
  */
 
 import styled from 'styled-components'
 
-const Button = styled.button`
+export default styled.button`
   /* Adapt the colors based on primary prop */
   background: ${props => (props.primary ? 'palevioletred' : 'white')};
   background: ${props => (props.none ? 'white' : 'inherit')};
@@ -18,5 +18,3 @@ const Button = styled.button`
   border: 2px solid palevioletred;
   border-radius: 3px;
 `
-
-export default Button

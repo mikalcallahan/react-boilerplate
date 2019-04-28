@@ -1,12 +1,12 @@
 /*
- * Button.js
+ * Paragraph.js
  *
- * @returns button
+ * @returns: Paragraph
  */
 
 import styled from 'styled-components'
 
-const Paragraph = styled.p`
+export default styled.p`
   align-items: center;
   display: flex;
   font-size: ${props => (props.sm ? '1.8rem' : '2rem')};
@@ -16,5 +16,3 @@ const Paragraph = styled.p`
   text-align: center;
   width: auto;
 `
-
-export default Paragraph
